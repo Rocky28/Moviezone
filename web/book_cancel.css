@@ -1,0 +1,150 @@
+#new_header {
+	float: left;
+	width: 855px;
+	padding: 0 35px;
+	margin: 15px 0 15px 0;
+}
+
+
+#text_area_1{
+    	float: left;
+	
+	padding: 15px 42px;
+	margin: 5px 0 10px 0;
+        font-style: normal;
+        font-size: medium;
+        word-spacing: 3px;
+        
+        
+    
+}
+#text_area_box1{
+    float:right;
+    width: 600px;
+    text-align: left;
+    font-style:normal;
+    word-spacing: 3px;
+    font-size: medium;
+}
+
+#text_3{
+    	float: left;
+	
+	padding: 15px 10px;
+	margin: 5px 0 10px 0;
+        font-style: normal;
+        font-size: medium;
+        word-spacing: 3px;
+}
+
+#border{
+    margin-left: 285px;
+    color: orangered;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    float: left;
+    padding-top: 15px;
+    width: 570px;
+    background-color: blue;
+     border:4px solid black;
+padding:10px 40px; 
+background:inherit;
+width:490px;
+border-radius:25px;
+    
+}
+#border_1{
+        margin-left: 295px;
+    color: orangered;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    float: left;
+    padding-top: 15px;
+    width: 530px;
+    height:160px;
+    
+        border:4px solid black;
+padding:10px 40px; 
+background:inherit;
+width:400px;
+border-radius:25px;
+    
+    
+}
+#acc_set{
+    margin-left: 225px;
+    float: left;
+    padding-top: 15px;
+    width: 575px;
+    border:4px solid black;
+padding:10px 40px; 
+background:inherit;
+width:600px;
+border-radius:25px;
+}
+select{
+    border-color: white;
+}
+input{
+    color:white;
+    border-color: white;
+    width: 180px;
+}
+textarea{
+    color:white;
+}
+
+#templatemo_content {
+	float: left;
+	margin: 0;
+	padding: 0 0px 0 0;
+	width: 950px;
+}
+
+
+#text1{
+    padding-left: 0px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc601;
+}
+
+#text2{
+    padding-left: 200px;
+    margin-top: 43px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc601;
+}
+#text3{
+        padding-left: 100px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc601;
+}
+#text4{
+   
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc601;
+}
+#text5{
+    text-align: left;
+    color:whitesmoke;
+    font-size: 17px;
+    font-weight: bold;
+    word-spacing: 3px;
+   
+}
+
+#ticket_details{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}

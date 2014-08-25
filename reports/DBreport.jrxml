@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport  name="DBreport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" >
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="tid" class="java.lang.Integer" />
+	<queryString>
+		<![CDATA[select a.un,a.tn,a.mn,a.city,a.dt,a.show,a.tid,a.tc from pdf a where a.tid=$P{tid}]]>
+	</queryString>
+	<field name="un" class="java.lang.String"/>
+	<field name="tn" class="java.lang.String"/>
+        <field name="mn" class="java.lang.String"/>
+	<field name="city" class="java.lang.String"/>
+	<field name="dt" class="java.lang.String"/>
+	<field name="show" class="java.lang.String"/>
+	<field name="tid" class="java.lang.Integer"/>
+	<field name="tc" class="java.lang.String"/>
+	<pageHeader>
+		<band height="127" >
+			<staticText>
+				<reportElement x="131" y="24" width="424" height="103" />
+				<textElement>
+					<font fontName="Calibri" size="48"/>
+				</textElement>
+				<text><![CDATA[Movie Zone]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="446" >
+			<textField>
+				<reportElement x="270" y="42" width="187" height="34" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{un}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="90" width="187" height="40" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{tn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="140" width="187" height="39" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{city}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="198" width="187" height="36" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{dt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="250" width="187" height="39" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{show}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="300" width="187" height="38" />
+				<textFieldExpression class="java.lang.Integer"><![CDATA[$F{tid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="350" width="187" height="36" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{tc}]]></textFieldExpression>
+			</textField>
+                        <textField>
+				<reportElement x="270" y="400" width="187" height="36" />
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{mn}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="35" y="28" width="134" height="48" />
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[
+UserName:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="90" width="134" height="40" />
+				<text><![CDATA[
+Theater Name:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="140" width="134" height="39" />
+				<text><![CDATA[
+City:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="198" width="134" height="36" />
+				<text><![CDATA[
+Date:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="250" width="134" height="39" />
+				<text><![CDATA[
+Show:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="300" width="134" height="38" />
+				<text><![CDATA[
+Tid:
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="35" y="350" width="134" height="36" />
+				<text><![CDATA[
+Total Cost:
+]]></text>
+			</staticText>
+                        <staticText>
+				<reportElement x="35" y="400" width="134" height="36" />
+				<text><![CDATA[
+Movie Name:
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

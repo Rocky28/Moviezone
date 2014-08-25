@@ -1,0 +1,297 @@
+
+body {
+	margin: 0px auto;
+        background: url("17.jpg");
+	padding:0;
+	line-height: 1.5em;
+	font-family:  Helvetica, Comic Sans MS;
+	font-size: 11px;
+	color: #FFFFFF;
+        
+}
+
+h1 {
+	margin: 0 0 25px 0;
+	padding: 10px 0 10px 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffc601;
+}
+
+h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 15px;
+	color:whitesmoke;	
+}
+
+h4 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 12px;
+	color: #999999;	
+}
+
+
+a:link, a:visited { color: #999999; text-decoration: none;} 
+a:active, a:hover { color: #999999; text-decoration: underline;}
+
+.detail_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 60px;
+	padding: 1px 0;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img {
+	border: 1px solid #6c5b4c;
+}
+
+.form_row{
+	margin-bottom: 6px;
+}
+
+form{
+	margin: 0;
+	padding: 0;
+	text-align: right;	
+}
+
+label {
+	margin-right: 10px;
+}
+
+input{
+	width: 130px;
+	height: 18px;
+	padding: 1px 0;
+	line-height: normal;
+	
+	border: 1px solid white;
+	
+}
+select{
+	background-color: transparent;
+}
+
+
+
+.button{
+	width: 60px;
+	line-height: normal;
+	margin: 0;
+	height: 23px;
+        padding-bottom: 2px;
+}
+
+#container {
+	margin: 0px auto;
+	
+        background: url("17.jpg");
+      
+        
+}
+
+
+#header {
+	float: left;
+	width: 1100px;
+	padding: 0 15px;
+	margin: 0px 0 0px 0;
+        background-color: inherit;
+        padding-top: 10px;
+        
+        
+}
+#header_box{
+    float:right;
+    width:500px;
+    text-align: right;
+    padding-right: 3px;
+}
+
+#title {
+	float: left;
+	width: 400px;
+        padding-left: 20px;
+        
+}
+
+#sitetitle {
+	padding: 40px 0 10px 0;
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #FF9933;
+}
+#sitetitle span{
+	font-weight: normal;
+	color: #FFFFFF;
+        font-weight: lighter;
+}
+
+#acc_details{
+    float:right;
+    padding-right: 10px;
+    text-align: right;
+    margin-left: 10px;
+    padding-top: 20px;
+    width:500px;
+}
+
+
+
+#text_area_1{
+    	float: left;
+	width: 855px;
+	padding: 0 42px;
+	margin: 5px 0 10px 0;
+        font-style: normal;
+        font-size: medium;
+        word-spacing: 3px;
+    
+}
+
+/*--- Menu ---*/
+#menu{
+	float: left;
+	width: 1130px;
+	height: 58px;
+       
+        background-color: inherit;
+        
+}
+
+#menu ul {
+	float: left;
+	margin: 0;
+	padding: 25px 0 0 110px;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	float: left;
+	width: 180px;
+	height: 20px;
+	margin-top: 11px;
+	padding: 0;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+#menu ul li .lastmenu{
+	border-right: none;
+}
+
+#menu li a:hover{
+	color: #FFCC33;
+}
+
+
+#content {
+	float: left;
+	margin: 0;
+	padding: 40px 0px 0 20px;
+	width: 1130px;
+        margin-bottom: 10px;
+        background-color: inherit;
+        
+}
+
+
+#left_sub_content {
+	float:left;
+	margin: 0px 0 0 0;
+	width: 500px;
+        
+        
+}
+
+#movie_section {
+	float: left;
+	width: 500px;
+	position:relative;
+ 
+}
+
+.movie_box {
+	float: left;
+	width: 180px;
+	margin: 0 10px 0 15px;	
+}
+
+.movie_box img{
+	margin-bottom: 5px;
+}
+
+#right_content{
+    
+    float:left;
+    padding-left: 10px;
+    padding-right: 15px;
+    width:500px;
+    background: inherit;
+}
+
+#right_sub_content{
+    margin: 0 50px 0 20px;
+    float: right;
+}
+
+#table2{
+    margin-top: 20px;
+}
+#review_box{
+    	padding-top: 20px;
+        text-align: left;
+        margin-left: 15px;
+}
+#video{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#footer {
+	clear: both;
+	padding: 15px 0;
+        padding-left: 90px;
+	width: 900px;
+	margin: 0 0px ;
+	text-align: center;
+	color: #ffc601;
+	background-color: inherit;
+	text-align: center;
+        padding-top: 140px;
+}
+
+#footer a{
+	color: #ffc601;
+}
+
+#footer a:hover{
+	color: #cccc66;
+}
+
+#recover{
+    padding-left: 30px;
+    height:500px;
+    padding-top: 20px;
+    text-align: left;
+    color: whitesmoke;
+    
+    
+}
+
