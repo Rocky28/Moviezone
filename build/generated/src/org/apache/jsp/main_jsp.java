@@ -48,17 +48,17 @@ public final class main_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n");
-      out.write("<title>Inox.in</title>\n");
-      out.write("<link href=\"home.css\" rel=\"stylesheet\" type=\"text/css\" />\n");
-      out.write("<link href=\"style_1.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
-      out.write("<link href=\"book_cancel.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
-      out.write("<link href=\"photo.css\" rel=\"stylesheet\" type=\"text/css\"/>\n");
-      out.write("</head>\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("<head>\r\n");
+      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n");
+      out.write("<title>Inox.in</title>\r\n");
+      out.write("<link href=\"home.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n");
+      out.write("<link href=\"style_1.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
+      out.write("<link href=\"book_cancel.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
+      out.write("<link href=\"photo.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
+      out.write("</head>\r\n");
       out.write("  ");
   Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
             
@@ -69,24 +69,24 @@ public final class main_jsp extends org.apache.jasper.runtime.HttpJspBase
                   response.sendRedirect("reshome.jsp");}
                             else
                          {  throw new Exception("jlt");}}catch(Exception e){ System.out.println(e);
-      out.write("\n");
-      out.write("    <body>\n");
-      out.write("\t<div id=\"header\">\n");
-      out.write("            <div id=\"title\">\n");
-      out.write("                <div id=\"sitetitle\">Movie Zone</div>\n");
-      out.write("            </div>\n");
-      out.write("            <div id=\"header_box\">\n");
-      out.write("            <form name=\"login\" method=\"post\" action=\"signin\">\n");
-      out.write("                <h3>Account Login</h3>\n");
-      out.write("                <b></b>\n");
-      out.write("                <div class=\"form_row\"><label><strong>Email</strong></label><input style=\"background-color:transparent\" class=\"inputfield\" name=\"email_address\" type=\"text\" id=\"email_address\"/></div>\n");
-      out.write("                    <div class=\"form_row\"><label><strong>Password</strong></label><input style=\"background-color:transparent\" class=\"inputfield\" name=\"password\" type=\"password\" id=\"password\"/></div>\n");
-      out.write("                    <input class=\"button\" type=\"submit\" name=\"Submit\" value=\"Login\" style=\"background-color:transparent; border-color: black;color: black\" />\n");
-      out.write("                    <div class=\"form_row\"><font size=\"2px\" style=\"color: black\"><strong>Forgot password ?</strong></font><a href=\"recover.jsp\"><font size=\"2px\" style=\"color: black\">Click here to recover password</font></a></div>    \n");
-      out.write("                    <div class=\"form_row\"><a href=\"signup.jsp\"><h3><font color=\"lightseagreen\">CREATE ACCOUNT</font></h3></a></div>\n");
-      out.write("            </form>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
+      out.write("\r\n");
+      out.write("    <body>\r\n");
+      out.write("\t<div id=\"header\">\r\n");
+      out.write("            <div id=\"title\">\r\n");
+      out.write("                <div id=\"sitetitle\">Movie Zone</div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div id=\"header_box\">\r\n");
+      out.write("            <form name=\"login\" method=\"post\" action=\"signin\">\r\n");
+      out.write("                <h3>Account Login</h3>\r\n");
+      out.write("                <b></b>\r\n");
+      out.write("                <div class=\"form_row\"><label><strong>Email</strong></label><input style=\"background-color:transparent\" class=\"inputfield\" name=\"email_address\" type=\"text\" id=\"email_address\"/></div>\r\n");
+      out.write("                    <div class=\"form_row\"><label><strong>Password</strong></label><input style=\"background-color:transparent\" class=\"inputfield\" name=\"password\" type=\"password\" id=\"password\"/></div>\r\n");
+      out.write("                    <input class=\"button\" type=\"submit\" name=\"Submit\" value=\"Login\" style=\"background-color:transparent; border-color: black;color: black\" />\r\n");
+      out.write("                    <div class=\"form_row\"><font size=\"2px\" style=\"color: black\"><strong>Forgot password ?</strong></font><a href=\"recover.jsp\"><font size=\"2px\" style=\"color: black\">Click here to recover password</font></a></div>    \r\n");
+      out.write("                    <div class=\"form_row\"><a href=\"signup.jsp\"><h3><font color=\"lightseagreen\">CREATE ACCOUNT</font></h3></a></div>\r\n");
+      out.write("            </form>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
       out.write("            ");
       out.write("\n");
       out.write("<!DOCTYPE html>\n");
@@ -160,7 +160,7 @@ public final class main_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("   </div>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
-      out.write("\n");
+      out.write("\r\n");
       out.write("           ");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
@@ -176,13 +176,13 @@ public final class main_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>  \n");
       out.write("    </body>\n");
       out.write("</html>\n");
-      out.write("\n");
-      out.write("    </body>\n");
+      out.write("\r\n");
+      out.write("    </body>\r\n");
       out.write("    ");
 }
-      out.write("\n");
-      out.write("</html>\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("</html>\r\n");
+      out.write("\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

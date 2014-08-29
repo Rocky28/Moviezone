@@ -1,5 +1,6 @@
 package p1;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
@@ -43,14 +44,14 @@ public class genPdf extends HttpServlet {
         int tid=(Integer)s.getAttribute("tid");
         Connection connection=null;
         ServletOutputStream servletOutputStream = response.getOutputStream();
-        String reportStream ="C:/Documents and Settings/rOcK/My Documents/NetBeansProjects/MovieZone/reports/DBreport.jrxml";
-        String reportStream1 ="C:/Documents and Settings/rOcK/My Documents/NetBeansProjects/MovieZone/reports/DBreport.jasper";
+        String reportStream =getServletContext().getRealPath("") + File.separator+"/reports/DBreport.jrxml";
+        String reportStream1 =getServletContext().getRealPath("") + File.separator+"/reports/DBreport.jasper";
         HashMap parameterMap = new HashMap();
         parameterMap.put("tid", new Integer(tid));
         try{
                 Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-                connection = DriverManager.getConnection ("jdbc:odbc:dsn77");
-                System.setProperty("jasper.reports.compile.class.path", "C:/Documents and Settings/rOcK/My Documents/jasperreports-5.5.1-project/jasperreports-5.5.1/dist/jasperreports-5.5.1.jar");
+                connection = DriverManager.getConnection ("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=G:/My projects/Moviezone/Movie.accdb");
+                System.setProperty("jasper.reports.compile.class.path", getServletContext().getRealPath("") + File.separator+"../../lib/jasperreports-5.5.1/jasperreports-5.5.1.jar");
                 JasperReport jr=JasperCompileManager.compileReport(reportStream);
                 JasperPrint jp=JasperFillManager.fillReport(reportStream1, parameterMap, connection); 
                 JasperExportManager.exportReportToPdfStream(jp, servletOutputStream);
