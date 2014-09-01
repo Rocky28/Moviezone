@@ -19,6 +19,9 @@ public class MovieDb
         {
             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
             db=DriverManager.getConnection("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=G:/My projects/Moviezone/Movie.accdb");
+           
+   String rootDir = System.getenv("SystemDrive");  
+        System.out.println("PARSED FILES ::" + rootDir);  
             username=address=emailid=password=question=answer=null;
             phone=null;
         }

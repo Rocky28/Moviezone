@@ -50,7 +50,7 @@ public class genPdf extends HttpServlet {
         parameterMap.put("tid", new Integer(tid));
         try{
                 Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-                connection = DriverManager.getConnection ("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=G:/My projects/Moviezone/Movie.accdb");
+                connection = DriverManager.getConnection ("jdbc:odbc:Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ="+getServletContext().getRealPath("") + File.separator+"../../Movie.accdb");
                 System.setProperty("jasper.reports.compile.class.path", getServletContext().getRealPath("") + File.separator+"../../lib/jasperreports-5.5.1/jasperreports-5.5.1.jar");
                 JasperReport jr=JasperCompileManager.compileReport(reportStream);
                 JasperPrint jp=JasperFillManager.fillReport(reportStream1, parameterMap, connection); 
